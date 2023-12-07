@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:#464E47;
+                                                                        font-family: 'Glitten', sans-serif;
+}
+.container{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background:#96E6B3;
+    margin:0 auto;
+}
+
+img{
+    width:200px;
+    height:100px;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color:#568259;
+}
+
+p{
+    color:#41521F;
+}
+h2{
+    color:#FCF6B1;
+    font-weight: 400;
+}
+h1{
+    color:#568259;
+    font-weight: 400;
+}
