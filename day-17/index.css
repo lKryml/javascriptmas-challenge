@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.word{
+    color:white;
+    background: var(--bg-word);
+    border-radius: 5px;
+    padding: 11px 10px;
+    
+    
+}
+
+.word:after{
+    content:"";
+    animation: 15s infinite wordAnimation;
+}
+:root {
+    --bg-word: #5134ff;
+}
+
+@keyframes wordAnimation {
+    0% {
+        content:"Powerlifting";
+    }
+    20%{
+        content:"Coding";
+    }
+    40%{
+        content:"Gaming";
+    }
+    60%{
+        content:"Youtube";
+    }
+    80%{
+        content:"Learning";
+    }
+    100%{
+        content:"Making Things";
+    }
+}
