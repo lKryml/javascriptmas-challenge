@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --search-border: #bbb;
+    --search-focus-border: #3a71ca;
+}
+
+.container {
+    padding: 5px 20px;
+    width: 300px;
+}
+
+.search-bar {
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    margin: 1em;
+    width: 30%;
+}
+
+.search-bar:hover{
+    border: 2px solid #3a71ca;
+}
+
+.search-bar:focus {
+    border: 2px solid #3a71ca;
+    border-radius: 5px;
+    width: 100%;
+}
